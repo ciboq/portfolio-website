@@ -48,6 +48,10 @@ main{
   grid-column: 1/6 ;
 }
 
+.cissy{
+  grid-column: 4/6;
+}
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
