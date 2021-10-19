@@ -30,8 +30,23 @@ figure {
   margin:0;
 }
 
+main{
+  width: 70vw;
+  margin: 0 auto;
+}
 
+.intro-block{
+  display: grid;
+  grid-template-columns:repeat(5, 1fr) ;
+  grid-auto-rows: min-content;
+  grid-gap: 2rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid;
+}
 
+.intro{
+  grid-column: 1/4 ;
+}
 
 /*
  * Remove text-shadow in selection highlight:
