@@ -49,6 +49,7 @@ main{
 }
 
 .cissy{
+  size: 10vw;
   grid-column: 3/5;
 }
 
