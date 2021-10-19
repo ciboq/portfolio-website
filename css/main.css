@@ -61,9 +61,22 @@ main{
   padding-bottom: 2rem;
 }
 
-.manifesto{
-  margin-top: 1rem;
+.image{
   grid-column: 1/2;
+}
+
+.image__img{
+  display: block;
+}
+
+.image__overlay{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: plum;
+  color: #ffffff;
 }
 
 /*mouse over link*/
