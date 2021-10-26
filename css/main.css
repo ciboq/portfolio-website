@@ -67,11 +67,11 @@ main{
 
 .image__img{
   display: block;
-  width: fit-content;
+  width: 100%; 
 }
 
 .image__overlay{
-position: absolute;
+position: grid: 1/2;
 top: 0%;
 left: 0%;
 width: 100%;
