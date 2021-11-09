@@ -62,7 +62,6 @@ main{
 }
 
 .image{
-  position: relative;
   grid-column: 1/2;
 }
 
