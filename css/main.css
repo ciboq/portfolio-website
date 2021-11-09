@@ -68,7 +68,7 @@ main{
 
 .image__img{
   display: block;
-  grid-column: 1/2;
+  width: 100%;
 }
 
 .image__overlay{
