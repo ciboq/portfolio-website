@@ -61,39 +61,7 @@ main{
   padding-bottom: 2rem;
 }
 
-.image{
-  grid-column: 1/2;
-}
 
-.image__img{
-  display: block;
-  width: 100%; 
-}
-
-.image__overlay{
-position: absolute;
-top: 0%;
-left: 0%;
-width: 100%;
-height: 100%;
-background: rgba(0,0,0,0.6);
-color: #ffffff;
-font-family:'Courier New', Courier, monospace;
-display: flex;
-flex-direction: column;
-align-items: center;
-justify-content: center;
-opacity: 0;
-}
-
-.image__overlay:hover{
-opacity: 1;
-}
-
-.image__title{
-  font-size: 2em;
-  font-weight: bold;
-}
 
 /*mouse over link*/
 a:hover{
