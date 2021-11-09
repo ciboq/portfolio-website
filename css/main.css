@@ -82,6 +82,11 @@ main{
   display: flex;
 }
 
+.image__title{
+  position: absolute;
+  font-family:'Times New Roman', Times, serif;
+}
+
 /*mouse over link*/
 a:hover{
   color: lightpink;
