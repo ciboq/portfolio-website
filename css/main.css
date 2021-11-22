@@ -66,8 +66,13 @@ main{
   grid-column: 1/2;
 }
 
+.image__img, .image__overlay{
+  grid-row: 1/2;
+}
+
 .image__img{
   display:grid;
+  grid-column: 1/2;
   width: 100%;
 }
 
