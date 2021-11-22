@@ -73,6 +73,7 @@ main{
 
 .image__overlay{
   display:grid;
+  grid-template-columns: repeat(3,1fr);
   grid-column: 1/2;
   top: 0;
   left: 0;
