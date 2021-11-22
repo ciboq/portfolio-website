@@ -67,6 +67,7 @@ main{
 }
 
 .image__img, .image__overlay{
+  display: grid;
   grid-column: 1/2;
 }
 
