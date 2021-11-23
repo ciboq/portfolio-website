@@ -90,7 +90,8 @@ main{
 .image__title{
   grid-column: 1/2;
   align-content: center;
-  padding-top: 50%;
+  padding-top: 30%;
+  padding-left: 30%;
   position: absolute;
   font-family:'Times New Roman', Times, serif;
 }
