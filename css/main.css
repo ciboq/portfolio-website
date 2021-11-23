@@ -79,6 +79,7 @@ main{
 }
 
 .image__overlay{
+  padding-top: 10px;
   grid-column: 1/-1;
   width: 277.333px;
   height: 184.883px;
