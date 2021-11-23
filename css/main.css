@@ -82,7 +82,7 @@ main{
   grid-column: 1/2;
   width: 236pc;
   height: 157pc;
-  position: absolute;
+  position: relative;
   background: rgba(0,0,0,0.6);
   color: #ffffff;
 }
