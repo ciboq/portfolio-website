@@ -63,6 +63,7 @@ main{
 
 .image{
   display: grid;
+  padding-top: 10px;
   grid-column: 1/2;
 }
 
@@ -72,6 +73,7 @@ main{
 
 .image__img{
   display:grid;
+  padding-top: 10px;
   grid-column: 1/-1;
   width: 100%;
 }
