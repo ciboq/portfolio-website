@@ -90,6 +90,7 @@ main{
   align-content: center;
   top: 50%;
   left:50%;
+  position: absolute;
   font-family:'Times New Roman', Times, serif;
 }
 
