@@ -68,6 +68,7 @@ main{
 
 .image__img, .image__overlay{
   grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .image__img{
