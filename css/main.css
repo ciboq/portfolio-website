@@ -67,7 +67,6 @@ main{
 }
 
 .image__img, .image__overlay{
-  display: grid;
   grid-column: 1/2;
 }
 
@@ -78,7 +77,6 @@ main{
 }
 
 .image__overlay{
-  display: grid;
   grid-column: 1/2;
   width: 277.333px;
   height: 184.883px;
@@ -88,7 +86,6 @@ main{
 }
 
 .image__title{
-  display: grid;
   grid-column: 1/2;
   top: 50%;
   left:50%;
