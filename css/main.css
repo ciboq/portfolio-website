@@ -81,9 +81,7 @@ main{
 .image__overlay{
   display: grid;
   padding-top: 10px;
-  grid-column: 1/-1;
-  width: 277.333px;
-  height: 184.883px;
+  grid-column: 1/2;
   position: relative;
   background: rgba(0,0,0,0.6);
   color: #ffffff;
