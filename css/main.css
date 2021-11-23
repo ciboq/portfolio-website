@@ -95,6 +95,10 @@ main{
   font-family:'Times New Roman', Times, serif;
 }
 
+.grow { 
+  transition: all .2s ease-in-out; 
+  }
+
 /*mouse over link*/
 a:hover{
   color: lightpink;
