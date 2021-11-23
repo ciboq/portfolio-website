@@ -80,8 +80,8 @@ main{
 .image__overlay{
   display: grid;
   grid-column: 1/2;
-  width: 50rem;
-  height: 30rem;
+  width: 236pc;
+  height: 157pc;
   position: absolute;
   background: rgba(0,0,0,0.6);
   color: #ffffff;
