@@ -99,6 +99,10 @@ main{
   transition: all .2s ease-in-out; 
   }
 
+  .image__overlay, .image__title:hover{
+    display: inline-block;
+  }
+
 /*mouse over link*/
 a:hover{
   color: lightpink;
