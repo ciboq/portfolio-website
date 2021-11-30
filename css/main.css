@@ -107,15 +107,13 @@ main{
   }
 
   .image__overlay2{
-    padding-top: 10px;
-    grid-column: 2/3;
+    padding-top: 10px; 
     position: absolute;
     background: rgba(0,0,0,0.6);
     color: #ffffff;
   }
   
   .image__title2{
-    grid-column: 2/3;
     align-content: center;
     font-family:'Times New Roman', Times, serif;
 
