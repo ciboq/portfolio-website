@@ -96,10 +96,10 @@ main{
 
   .image_2{
     padding-top: 10px;
+    justify-content: center;
   }
 
   .image__img2{
-    justify-content: center;
     height: 184.883px;
   }
 
