@@ -102,6 +102,35 @@ main{
   .image__overlay, .image__title:hover{
     display: inline-block;
   }
+  
+  .image_2{
+    display: grid;
+    padding-top: 10px;
+    grid-column: 2/3;
+  }
+  
+  .image__img2{
+    display:grid;
+    grid-column: 2/3;
+    width: 100%;
+  }
+  
+  .image__overlay2{
+    display: grid;
+    padding-top: 10px;
+    grid-column: 2/3;
+    position: relative;
+    background: rgba(0,0,0,0.6);
+    color: #ffffff;
+  }
+  
+  .image__title2{
+    grid-column: 2/3;
+    align-content: center;
+    padding-top: 30%;
+    padding-left: 30%;
+    position: absolute;
+    font-family:'Times New Roman', Times, serif;
 
 /*mouse over link*/
 a:hover{
