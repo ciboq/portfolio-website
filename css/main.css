@@ -106,6 +106,7 @@ main{
     height: 184.883px;
     position: relative;
     grid-area: overlap;
+    align-content: center;
   }
 
   .image__overlay2{
@@ -115,7 +116,6 @@ main{
     background: rgba(0,0,0,0.6);
     color: #ffffff;
     align-content: center;
-    align-self: center;
     display: grid;
     grid-area: overlap;
   }
