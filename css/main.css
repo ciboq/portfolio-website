@@ -118,6 +118,7 @@ main{
     align-self: center;
     justify-self: center;
     grid-area: overlap;
+    display: grid;
   }
   
   .image__title2{
