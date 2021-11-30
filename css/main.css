@@ -69,6 +69,7 @@ main{
 
 .image__img{
   width: 100%;
+  grid-area: overlap;
 }
 
 .image__overlay{
