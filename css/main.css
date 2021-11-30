@@ -132,7 +132,7 @@ main{
     opacity: 1;
   }
 
-.image__overlay2:only-child{
+.image__overlay2 > * {
   transform: translateY(20px);
   transition: transform 0.25s;
 }
