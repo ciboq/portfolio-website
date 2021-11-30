@@ -59,10 +59,12 @@ main{
   grid-auto-rows: min-content;
   grid-gap: 2rem;
   padding-bottom: 2rem;
+  grid-template-areas: "overlap";
 }
 
 .image{
   padding-top: 10px;
+  display: grid;
 }
 
 .image__img{
@@ -92,12 +94,7 @@ main{
   transition: all .2s ease-in-out; 
   }
 
-  .image__overlay, .image__title:hover{
-    display: inline-block;
-  }
-
   .image_2{
-    padding-top: 10px;
     justify-content: center;
     align-items: center;
     grid-template-areas: "overlap";
@@ -106,9 +103,6 @@ main{
 
   .image__img2{
     height: 184.883px;
-    position: relative;
-    align-self: center;
-    justify-self: center;
     grid-area: overlap;
   }
 
