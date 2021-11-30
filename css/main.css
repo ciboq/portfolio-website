@@ -122,11 +122,12 @@ main{
   
   .image__title2{
     font-family:'Times New Roman', Times, serif;
+    align-self: center;
+    justify-self: center;
 
 /*mouse over link*/
 a: hover;
-  color: lightpink;
-  opacity: 50%;
+  color: #ffffff;
 }
 
 /*
