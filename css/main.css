@@ -78,9 +78,14 @@ main{
   height: 184.883px;
   background: rgba(0,0,0,0.6);
   color: #ffffff;
+  opacity: 0;
   align-self: center;
   justify-self: center;
   grid-area: overlap;
+}
+
+.image__overlay:hover{
+  opacity: 1;
 }
 
 .image__title{
