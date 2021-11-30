@@ -49,8 +49,8 @@ main{
 }
 
 .cissy{
-  size: 10vw;
-  grid-column: 3/5;
+  size: 20pc;
+  grid-column: 4/5;
 }
 
 .projects{
@@ -110,7 +110,7 @@ main{
     grid-gap: 2rem;
     padding-bottom: 2rem;
   }
-  
+
   .image_2{
     display: grid;
     padding-top: 10px;
