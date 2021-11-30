@@ -68,8 +68,7 @@ main{
 }
 
 .image__img{
-  width: 277.333px;
-  height: 184.883px;
+  width: 100%;
 }
 
 .image__overlay{
