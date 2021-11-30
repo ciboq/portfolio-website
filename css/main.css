@@ -141,7 +141,7 @@ main{
     font-family:'Times New Roman', Times, serif;
 
 /*mouse over link*/
-a:hover;
+a: hover;
   color: lightpink;
   opacity: 50%;
 }
