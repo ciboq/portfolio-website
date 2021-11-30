@@ -128,16 +128,17 @@ main{
     display: grid;
   }
 
+
+  .image__overlay2 > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+  }
+
   .image__overlay2:hover{
     opacity: 1;
   }
 
-.image__overlay2 > * {
-  transform: translateY(20px);
-  transition: transform 0.25s;
-}
-
-.image__overlay2:hover{
+.image__overlay2:hover > * {
   transform: translateY(0)
 }
   
