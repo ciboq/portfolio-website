@@ -73,7 +73,8 @@ main{
 
 .image__overlay{
   position: relative;
-  width: 100%;
+  width: 277.333px;
+  height: 184.883px;
   background: rgba(0,0,0,0.6);
   color: #ffffff;
   align-self: center;
