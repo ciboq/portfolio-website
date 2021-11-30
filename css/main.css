@@ -103,12 +103,13 @@ main{
 
   .image__img2{
     height: 184.883px;
+    position: relative;
   }
 
   .image__overlay2{
     padding-top: 10px;
     grid-column: 2/3;
-    position: relative;
+    position: absolute;
     background: rgba(0,0,0,0.6);
     color: #ffffff;
   }
