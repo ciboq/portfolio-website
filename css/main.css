@@ -59,8 +59,6 @@ main{
   grid-auto-rows: min-content;
   grid-gap: 2rem;
   padding-bottom: 2rem;
-  justify-content: center;
-  align-items: center;
 }
 
 .image{
@@ -98,6 +96,9 @@ main{
 
   .image_2{
     padding-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
   }
 
   .image__img2{
