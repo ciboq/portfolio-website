@@ -98,6 +98,7 @@ main{
     padding-top: 10px;
     justify-content: center;
     align-items: center;
+    display: grid;
   }
 
   .image__img2{
