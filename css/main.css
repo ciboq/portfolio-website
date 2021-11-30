@@ -99,6 +99,7 @@ main{
     justify-content: center;
     align-items: center;
     grid-template-areas: "overlap";
+    display:grid
   }
 
   .image__img2{
@@ -110,7 +111,7 @@ main{
   }
 
   .image__overlay2{
-    position: absolute;
+    position: relative;
     height: 184.883px;
     width: 144.283px;
     background: rgba(0,0,0,0.6);
