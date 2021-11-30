@@ -123,6 +123,7 @@ main{
   
   .image__title2{
     font-family:'Times New Roman', Times, serif;
+    padding-left: 50%;
     align-self: center;
     justify-self: center;
 
