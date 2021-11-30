@@ -136,6 +136,10 @@ main{
   transform: translateY(20px);
   transition: transform 0.25s;
 }
+
+.image__overlay2:hover{
+  transform: translateY(0)
+}
   
   .image__title2{
     font-family:'Times New Roman', Times, serif;
