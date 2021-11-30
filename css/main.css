@@ -50,7 +50,7 @@ main{
 }
 
 .cissy{
-  grid-column: 3/5;
+  grid-column: 4/6;
   position: relative;
   height: 50%;
   width: 50%;
