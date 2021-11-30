@@ -97,7 +97,11 @@ main{
   .image_2{
     padding-top: 10px;
   }
-  
+
+  .image__img2{
+    width: fit-content;
+  }
+
   .image__overlay2{
     padding-top: 10px;
     grid-column: 2/3;
