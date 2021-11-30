@@ -107,6 +107,7 @@ main{
   }
 
   .image__overlay2{
+    width: min-content;
     height: 184.883px;
     position: absolute;
     background: rgba(0,0,0,0.6);
