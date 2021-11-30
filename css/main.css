@@ -104,14 +104,13 @@ main{
   .image__img2{
     height: 184.883px;
     position: relative;
-    align-content: center;
-    display: grid;
   }
 
   .image__overlay2{
     width: 144.283px;
     height: 184.883px;
     position: absolute;
+    left: 188px;
     background: rgba(0,0,0,0.6);
     color: #ffffff;
     align-content: center;
