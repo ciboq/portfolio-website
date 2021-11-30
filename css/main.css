@@ -115,6 +115,7 @@ main{
     background: rgba(0,0,0,0.6);
     color: #ffffff;
     align-content: center;
+    align-self: center;
     display: grid;
     grid-area: overlap;
   }
