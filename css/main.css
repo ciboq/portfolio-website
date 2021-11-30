@@ -98,15 +98,15 @@ main{
     padding-top: 10px;
     justify-content: center;
     align-items: center;
-    display: grid;
     grid-template-areas: "overlap";
   }
 
   .image__img2{
     height: 184.883px;
     position: relative;
+    align-self: center;
+    justify-self: center;
     grid-area: overlap;
-    align-content: center;
   }
 
   .image__overlay2{
@@ -115,8 +115,8 @@ main{
     width: 144.283px;
     background: rgba(0,0,0,0.6);
     color: #ffffff;
-    align-content: center;
-    display: grid;
+    align-self: center;
+    justify-self: center;
     grid-area: overlap;
   }
   
