@@ -70,11 +70,12 @@ main{
 }
 
 .image__overlay{
-  padding-top: 10px;
-  grid-column: 1/2;
   position: relative;
   background: rgba(0,0,0,0.6);
   color: #ffffff;
+  align-self: center;
+  justify-self: center;
+  grid-area: overlap;
 }
 
 .image__title{
