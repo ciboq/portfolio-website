@@ -107,10 +107,8 @@ main{
   }
 
   .image__overlay2{
-    width: 144.283px;
     height: 184.883px;
-    position: absolute;
-    left: 188px;
+    position: relative;
     background: rgba(0,0,0,0.6);
     color: #ffffff;
     align-content: center;
