@@ -99,6 +99,7 @@ main{
   }
 
   .image__img2{
+    justify-content: center;
     height: 184.883px;
   }
 
