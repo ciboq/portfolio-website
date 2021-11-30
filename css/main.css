@@ -62,18 +62,10 @@ main{
 }
 
 .image{
-  display: grid;
   padding-top: 10px;
-  grid-column: 1/2;
-}
-
-.image__img, .image__overlay{
-  grid-row: 1/2;
 }
 
 .image__img{
-  display:grid;
-  grid-column: 1/-1;
   width: 100%;
 }
 
@@ -112,19 +104,14 @@ main{
   }
 
   .image_2{
-    display: grid;
     padding-top: 10px;
-    grid-column: 2/3;
   }
   
   .image__img2{
-    display:grid;
-    grid-column: 2/3;
     width: 100%;
   }
   
   .image__overlay2{
-    display: grid;
     padding-top: 10px;
     grid-column: 2/3;
     position: relative;
