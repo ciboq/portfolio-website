@@ -116,9 +116,6 @@ main{
   .image__title2{
     grid-column: 2/3;
     align-content: center;
-    padding-top: 30%;
-    padding-left: 30%;
-    position: absolute;
     font-family:'Times New Roman', Times, serif;
 
 /*mouse over link*/
