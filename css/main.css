@@ -156,17 +156,129 @@ transform: translateY(0)
 .image__overlay2:hover > * {
   transform: translateY(0)
 }
-  
-  .image__title2{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-    align-self: center;
-    justify-self: center;
+
+.image__title2{
+  grid-column: 1/3;
+  align-content: center;
+  padding-top: 40%;
+  padding-left: 15%;
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.image_3{
+  justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    grid-template-areas: "overlap";
+    display:grid
+}
+
+.image__img3{
+  width: 100%;
+  grid-area: overlap;
+}
+
+.image__overlay3{
+  position: relative;
+  width: 277.333px;
+  height: 156.183px;
+  background: rgba(0,0,0,0.6);
+  color: #ffffff;
+  opacity: 0;
+  transition: opacity 0.25s;
+  align-self: center;
+  justify-self: center;
+  grid-area: overlap;
+}
+
+.image__overlay3 > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay3:hover{
+  opacity: 1;
+}
+
+.image__overlay3:hover > * {
+transform: translateY(0)
+}
+
+.image__title3{
+  grid-column: 1/3;
+  align-content: center;
+  padding-top: 25%;
+  padding-left: 38%;
+  position: absolute;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.wikibook_grid{
+  display: grid;
+  grid-template-columns: repeat(3,1fr) ;
+  grid-template-rows: repeat(4,1fr);
+  grid-auto-rows: min-content;
+  grid-gap: 2rem;
+  padding-bottom: 2rem;
+  grid-template-areas: "overlap";
+}
+
+.wikibook{
+  grid-column: 2/4;
+}
+
+.wikibook_2{
+  grid-row: 2;
+  grid-column: 2/4;
+}
+
+.wikibook_3{
+  grid-row: 3;
+  grid-column: 2/4;
+}
+
+.wikibook_4{
+  grid-row: 4;
+  grid-column: 2/4;
+}
+
+.wikibook_description{
+  top: 2%;
+  position: sticky;
+  grid-column: 1/2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 14pt;
+  color: #999;
+  grid-area: overlap;
+}
+
+.wikibook_name{
+  top: 40%;
+  padding-top: 8px;
+  position: sticky;
+  grid-column: 1/2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  font-size: 30pt;
+  color: #000;
+  grid-area: overlap;
+}
+
+html, body {
+  height: 100%;
+}
+
+.full-height {
+  height: 100%;
+}
+
+
+
 
 /*mouse over link*/
-a: hover;
-  color: #ffffff;
-}
+
 
 /*
  * Remove text-shadow in selection highlight:
